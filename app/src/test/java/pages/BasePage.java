@@ -21,7 +21,7 @@ public class BasePage {
     private static Actions actions;
 
     static{
-        System.setProperty("webdriver.firefox.driver","D:\\Documentos\\Cursos\\Udemy\\Selenium con Java y Cucumber El curso definitivo\\geckoriver.exe");
+        System.setProperty("webdriver.firefox.driver","D:\\Documentos\\Cursos\\Udemy\\Selenium con Java y Cucumber El curso definitivo\\AutomationAmazon\\app\\src\\test\\resources\\geckodriver.exe");
         FirefoxOptions firefoxOptions = new FirefoxOptions();
         driver = new FirefoxDriver(firefoxOptions);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
